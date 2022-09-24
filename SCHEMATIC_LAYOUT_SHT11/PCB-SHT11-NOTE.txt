@@ -1,0 +1,4 @@
+Note:
++ File *.MAX:	Layout Orcad 16.6
++ File *.zip:	Gerber File (Dung de dat mach in toi superlier)
++ File *.pdf:	Dung de lam mach in thu cong ty le 1:1 (lop dong + ten linh kien)

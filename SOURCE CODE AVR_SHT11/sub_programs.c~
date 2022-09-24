@@ -1,0 +1,253 @@
+//=======================
+//void lcd_putnum_5(unsigned int number)
+//{
+//    unsigned char chucnghin,nghin,tram,chuc,donvi;
+//    chucnghin=number/10000;
+//    nghin=number%10000/1000; 
+//    tram=number%1000/100;
+//    chuc=number%100/10;
+//    donvi=number%10;
+//
+//    //Xoa so 0 vo nghia
+//    if(chucnghin==0)
+//    {   
+//        lcd_putchar(0x20);
+//        if(nghin==0)
+//        {   
+//            lcd_putchar(0x20);
+//            if (tram==0)
+//            {
+//                lcd_putchar(0x20);
+//                if (chuc==0)    lcd_putchar(0x20);            
+//                else            lcd_putchar(chuc+48);
+//            } 
+//            else
+//            {    
+//                lcd_putchar(tram+48);
+//                lcd_putchar(chuc+48);
+//            }
+//        }
+//        else
+//        {
+//            lcd_putchar(nghin+48);
+//            lcd_putchar(tram+48);
+//            lcd_putchar(chuc+48);        
+//        }
+//    }
+//    else
+//    {  
+//        lcd_putchar(chucnghin+48);
+//        lcd_putchar(nghin+48);
+//        lcd_putchar(tram+48);          
+//        lcd_putchar(chuc+48);    
+//    }
+//    lcd_putchar(donvi+48);       
+//}
+/************************
+*************************/
+//====================
+//void lcd_putnum_ki (float number)
+//{  
+//        unsigned int nguyen, thap_phan;  
+//        unsigned int chuc, donvi; 
+//        unsigned int tp_donvi; 
+//                  
+//        nguyen = number;
+//        number = (number - nguyen)*10;
+//        thap_phan = number;     
+//         
+//        chuc=nguyen/10;
+//        donvi=nguyen%10;        
+//        tp_donvi=thap_phan;     
+//               
+//        //Xoa so 0 vo nghia
+//
+//        if      (chuc==0)  lcd_putchar(0x20);            
+//        else               lcd_putchar(chuc+48);    
+//        lcd_putchar(donvi+48);      
+//        lcd_putchar('.');  
+//        lcd_putchar(tp_donvi+48);  
+//}
+//=================
+/**********************
+************************/
+void lcd_putnum_nguyen(unsigned int number)
+{
+    unsigned int tram, chuc, donvi;
+    tram=number/100; 
+    chuc=(number%100)/10;
+    donvi=number%10;
+    
+    if(tram==0)
+    {
+        lcd_putchar(0x5f);
+        if(chuc==0) lcd_putchar(0x5f);
+        else lcd_putchar(chuc+48);  
+    } 
+    else
+    {        
+        lcd_putchar(tram+48); 
+        lcd_putchar(chuc+48);
+    }
+    lcd_putchar(donvi+48);
+}
+//========================
+void lcd_putnum_thap_phan_set(unsigned int number)
+{
+     unsigned char tp_donvi; 
+     tp_donvi=number%10; 
+     lcd_putchar(tp_donvi+48);   
+}
+//====================
+void lcd_display_sensor (float number)
+{  
+        unsigned int nguyen, thap_phan;  
+        unsigned int tram, chuc, donvi; 
+        unsigned int tp_chuc, tp_donvi; 
+         
+//        if(number<0)
+//        {
+//            number=-number;
+//            lcd_putchar(0x2d);
+//        }
+//        else lcd_putchar(0x20);
+           
+        nguyen = number;
+        number = (number - nguyen)*100;
+        thap_phan = number;     
+         
+        tram=nguyen/100; 
+        chuc=(nguyen%100)/10;
+        donvi=nguyen%10; 
+        
+        tp_chuc=thap_phan/10;
+        tp_donvi=thap_phan%10;     
+        
+        /*
+        //Giai thuat lam tron so
+        if (tp_donvi>=5)
+        {
+            tp_chuc++;
+            if (tp_chuc>9)
+            {   
+                tp_chuc=0;
+                donvi++;
+                if(donvi>9)
+                {  
+                    donvi=0;
+                    chuc++;
+                    if(chuc>9)
+                    {
+                        chuc=0;
+                        tram++;
+                        tram=tram>9?0:tram;                    
+                    }
+                }
+            }
+        }
+        */
+        //Xoa so 0 vo nghia
+        if (tram==0)
+        {
+            lcd_putchar(0x20);
+            if (chuc==0)      
+                lcd_putchar(0x20);            
+            else
+                lcd_putchar(chuc+48);
+        }
+        else
+        {
+            lcd_putchar(tram+48);          
+            lcd_putchar(chuc+48);    
+        }
+        lcd_putchar(donvi+48);      
+        lcd_putchar('.');  
+        lcd_putchar(tp_chuc+48); 
+        lcd_putchar(tp_donvi+48);
+         
+}
+//=================
+//void lcd_display_set (float number)
+//{ 
+//    unsigned int nguyen, thap_phan;
+//    nguyen = number;
+//    number = (number - nguyen)*10;
+//    thap_phan = number;     
+//     
+//    lcd_putnum_nguyen(nguyen);  
+//    lcd_putchar('.');
+//    lcd_putnum_thap_phan_set(thap_phan); 
+//}
+//============================
+void lcd_display_set (unsigned int number)
+{        
+    lcd_putnum_nguyen(number/10);  
+    lcd_putchar('.');
+    lcd_putnum_thap_phan_set(number%10); 
+}
+//=================
+void lcd_display_pwm (unsigned int number)
+{ 
+    unsigned int trnghin,nghin,tram, chuc, donvi;
+    trnghin=number/10000;
+    nghin=number%10000/1000;
+    tram=number%1000/100; 
+    chuc=(number%100)/10;
+    donvi=number%10;
+    
+    lcd_putchar(trnghin+48);
+    lcd_putchar(nghin+48);
+    lcd_putchar(tram+48);
+    lcd_putchar(chuc+48);        
+    lcd_putchar(donvi+48);
+}
+//============================
+//Subroutine recording CGRAM character on the LCD
+// function used to define user characters
+
+void define_char(flash unsigned char *pc,unsigned char char_code)
+{
+char i,address;
+address=(char_code<<3)|0x40;
+for (i=0; i<8; i++) lcd_write_byte(address++,*pc++);
+}
+
+
+/********************************************
+PID sub programming
+*******************************************/
+void pid_temp_ctrol(float sub_temp,float sub_set_temp)
+{  
+        err=sub_set_temp-sub_temp;        
+        //pid part
+        p_part=kp*err;
+        d_part=kd*(err-pre_err)*inv_sampling_time;
+        i_part=pre_i_part + ki*sampling_time*err/1000;
+        output=p_part + d_part + i_part;
+        
+        //saturation
+        if(output>=pwm_period)   output=pwm_period-1;
+        if(output<=0)            output=1;
+        pwm_a=set==1?output:1;
+        pwm_b=set==1?output:1; 
+        pre_err=err;
+        pre_i_part=i_part;
+}
+
+
+void pid_humi_ctrol(float sub_humi,float sub_set_humi)
+{  
+        humi_err=sub_set_humi-sub_humi;        
+        //pid part
+        humi_p_part=humi_kp*humi_err;
+        humi_d_part=humi_kd*(humi_err-humi_pre_err)*humi_inv_sampling_time;
+        humi_i_part=humi_pre_i_part + humi_ki*humi_sampling_time*humi_err/1000;
+        humi_output=humi_p_part + humi_d_part + humi_i_part;
+        
+        //saturation
+        if(humi_output>=humi_pwm_period)   humi_output=humi_pwm_period-1;
+        if(humi_output<=0)            humi_output=1;
+        pwm_b=set==1?humi_output:1; 
+        humi_pre_err=humi_err;
+        humi_pre_i_part=humi_i_part;
+}

@@ -1,0 +1,62 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+int_temp                                                          0x02F6       8
+int_humi                                                          0x02FE       8
+int_temp_ok                                                       0x0306       8
+int_humi_ok                                                       0x030E       8
+set_humi_int_ok                                                   0x0316       2
+set_temp                                                          0x0318       4
+set_humi                                                          0x031C       4
+set_temp_ok                                                       0x0320       4
+set_humi_ok                                                       0x0324       4
+i                                                                 0x0328       2
+s                                                                 0x032A       2
+delay                                                             0x032C       2
+nhiet_do                                                          0x032E       4
+do_am                                                             0x0332       4
+delay_sampling                                                    0x0336       2
+err                                                               0x0338       4
+pre_err                                                           0x033C       4
+kp                                                                0x0340       4
+kd                                                                0x0344       4
+ki                                                                0x0348       4
+p_part                                                            0x034C       4
+i_part                                                            0x0350       4
+pre_i_part                                                        0x0354       4
+d_part                                                            0x0358       4
+output                                                            0x035C       4
+humi_err                                                          0x0360       4
+humi_pre_err                                                      0x0364       4
+humi_kp                                                           0x0368       4
+humi_kd                                                           0x036C       4
+humi_ki                                                           0x0370       4
+humi_p_part                                                       0x0374       4
+humi_i_part                                                       0x0378       4
+humi_pre_i_part                                                   0x037C       4
+humi_d_part                                                       0x0380       4
+humi_output                                                       0x0384       4
+SHT_Resolution                                                    0x0388       1
+_base_y                                                           0x0389       4
+_lcd_y                                                            0x038D       1
+_lcd_maxx                                                         0x038E       1
+_seed                                                             0x038F       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+eep_temp_ok                                                       0x0000       8
+eep_humi_ok                                                       0x0008       8
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+set                                                               R5           1
+mode_temp                                                         R4           1
+mode_humi                                                         R7           1
+set_temp_int                                                      R8,R9        2
+set_humi_int                                                      R10,R11      2
+set_temp_int_ok                                                   R12,R13      2
+state                                                             R2.0      1bit
+dao_pwm                                                           R2.1      1bit
+_lcd_x                                                            R6           1

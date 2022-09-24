@@ -1,0 +1,10 @@
+VERSION:3 SOURCE_TIMESTAMP:482B83E0
+NODE:I LEVEL:0 LINE:23 "C:\cvavreval\inc\mega32a.h"
+NODE:I LEVEL:0 LINE:24 "C:\cvavreval\inc\delay.h"
+NODE:I LEVEL:0 LINE:25 "C:\cvavreval\inc\math.h"
+NODE:I LEVEL:0 LINE:27 "C:\cvavreval\inc\alcd.h"
+NODE:I LEVEL:0 LINE:29 "declare.c"
+NODE:I LEVEL:0 LINE:30 "sub_programs.c"
+NODE:I LEVEL:0 LINE:31 "sub_interrupt.c"
+NODE:I LEVEL:0 LINE:32 "sub_sht11.c"
+NODE:F LEVEL:0 LINE:34 "main(void)"

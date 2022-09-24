@@ -1,0 +1,39 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+mode_humi                                                         0x028D       1
+int_temp                                                          0x028E       8
+int_humi                                                          0x0296       8
+int_temp_ok                                                       0x029E       8
+int_humi_ok                                                       0x02A6       8
+set_temp                                                          0x02AE       4
+set_humi                                                          0x02B2       4
+set_temp_ok                                                       0x02B6       4
+set_humi_ok                                                       0x02BA       4
+i                                                                 0x02BE       2
+nhiet_do                                                          0x02C0       4
+do_am                                                             0x02C4       4
+SHT_Resolution                                                    0x02C8       1
+_base_y                                                           0x02C9       4
+_lcd_x                                                            0x02CD       1
+_lcd_y                                                            0x02CE       1
+_lcd_maxx                                                         0x02CF       1
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+gio                                                               R5           1
+phut                                                              R4           1
+giay                                                              R7           1
+thu                                                               R6           1
+ngay                                                              R9           1
+thang                                                             R8           1
+nam                                                               R11          1
+set                                                               R10          1
+mode_time                                                         R13          1
+mode_temp                                                         R12          1
+state                                                             R2.0      1bit

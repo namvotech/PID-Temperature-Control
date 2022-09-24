@@ -1,0 +1,270 @@
+Post Processor Report
+OrCAD FILE: D:\DO NHIET DO VA DO AM\SHT11 - MEGA32A\SCHEMATIC_LAYOUT_SHT11\PCB-SHT11-FULL-SEND\PCB-SHT11-MCU\PCB-SHT11-MCU-LAYOUT\PCB-SHT11-MCU.MAX
+Mon May 25 20:20:02 2015
+
+*********************************************************
+
+Output file: D:\DO NHIET DO VA DO AM\SHT11 - MEGA32A\SCHEMATIC_LAYOUT_SHT11\PCB-SHT11-FULL-SEND\PCB-SHT11-MCU\PCB-SHT11-MCU-LAYOUT\PCB-SHT11-MCU.TOP
+Note: A 2 mil line was used to simulate a non-orthogonal rectangular pad.
+
+Aperture totals for D:\DO NHIET DO VA DO AM\SHT11 - MEGA32A\SCHEMATIC_LAYOUT_SHT11\PCB-SHT11-FULL-SEND\PCB-SHT11-MCU\PCB-SHT11-MCU-LAYOUT\PCB-SHT11-MCU.TOP:
+---------------------------------------------------------
+D10:  0.0500 ROUND  --       0 Draws,       4 Flashes
+D11:  0.0020 ROUND  --     206 Draws,       0 Flashes
+D12:  0.0500 SQUARE --       0 Draws,       3 Flashes
+D13:  0.0800 ROUND  --       0 Draws,       1 Flashes
+D14:  0.0800 SQUARE --       0 Draws,       1 Flashes
+D15:  0.0600 ROUND  --       0 Draws,      64 Flashes
+D16:  0.0600 SQUARE --       0 Draws,       4 Flashes
+D17:  0.0950 x 0.0650 OBLONG    -----       7 Flashes
+D18:  0.0950 x 0.0650 RECTANGLE -----       3 Flashes
+D19:  0.1000 ROUND  --       0 Draws,       1 Flashes
+D20:  0.1000 SQUARE --       0 Draws,       1 Flashes
+D21:  0.0650 x 0.0650 OBLONG    -----       7 Flashes
+D22:  0.0650 SQUARE --       0 Draws,       3 Flashes
+D23:  0.1260 ROUND  --       0 Draws,       2 Flashes
+D24:  0.0650 ROUND  --       0 Draws,       6 Flashes
+D25:  0.1575 ROUND  --       0 Draws,       4 Flashes
+D26:  0.0750 x 0.0900 OBLONG    -----      15 Flashes
+D27:  0.0750 x 0.0900 RECTANGLE -----       1 Flashes
+D28:  0.0949 x 0.0649 OBLONG    -----       3 Flashes
+D29:  0.0790 ROUND  --       0 Draws,       3 Flashes
+D30:  0.0850 x 0.0700 OBLONG    -----       2 Flashes
+D31:  0.0850 x 0.0700 RECTANGLE -----       1 Flashes
+D33:  0.0250 ROUND  --       3 Draws,       0 Flashes
+D34:  0.0600 ROUND  --       0 Draws,       6 Flashes
+D35:  0.0200 ROUND  --       1 Draws,       0 Flashes
+---------------------------------------------------------
+ 25 D-Codes      -----     210 Draws,     142 Flashes
+
+*********************************************************
+
+Output file: D:\DO NHIET DO VA DO AM\SHT11 - MEGA32A\SCHEMATIC_LAYOUT_SHT11\PCB-SHT11-FULL-SEND\PCB-SHT11-MCU\PCB-SHT11-MCU-LAYOUT\PCB-SHT11-MCU.BOT
+Note: A 2 mil line was used to simulate a non-orthogonal rectangular pad.
+
+Aperture totals for D:\DO NHIET DO VA DO AM\SHT11 - MEGA32A\SCHEMATIC_LAYOUT_SHT11\PCB-SHT11-FULL-SEND\PCB-SHT11-MCU\PCB-SHT11-MCU-LAYOUT\PCB-SHT11-MCU.BOT:
+---------------------------------------------------------
+D10:  0.0500 ROUND  --       0 Draws,       4 Flashes
+D11:  0.0020 ROUND  --     206 Draws,       0 Flashes
+D12:  0.0500 SQUARE --       0 Draws,       3 Flashes
+D13:  0.0800 ROUND  --       0 Draws,       1 Flashes
+D14:  0.0800 SQUARE --       0 Draws,       1 Flashes
+D15:  0.0600 ROUND  --       0 Draws,      64 Flashes
+D16:  0.0600 SQUARE --       0 Draws,       4 Flashes
+D17:  0.0950 x 0.0650 OBLONG    -----       7 Flashes
+D18:  0.0950 x 0.0650 RECTANGLE -----       3 Flashes
+D19:  0.1000 ROUND  --       0 Draws,       1 Flashes
+D20:  0.1000 SQUARE --       0 Draws,       1 Flashes
+D21:  0.0650 x 0.0650 OBLONG    -----       7 Flashes
+D22:  0.0650 SQUARE --       0 Draws,       3 Flashes
+D23:  0.1260 ROUND  --       0 Draws,       2 Flashes
+D24:  0.0650 ROUND  --       0 Draws,       6 Flashes
+D25:  0.1575 ROUND  --       0 Draws,       4 Flashes
+D26:  0.0750 x 0.0900 OBLONG    -----      15 Flashes
+D27:  0.0750 x 0.0900 RECTANGLE -----       1 Flashes
+D28:  0.0949 x 0.0649 OBLONG    -----       3 Flashes
+D29:  0.0790 ROUND  --       0 Draws,       1 Flashes
+D30:  0.0850 x 0.0700 OBLONG    -----       2 Flashes
+D31:  0.0850 x 0.0700 RECTANGLE -----       1 Flashes
+D33:  0.0250 ROUND  --     173 Draws,       0 Flashes
+D34:  0.0600 ROUND  --       0 Draws,       6 Flashes
+D35:  0.0200 ROUND  --     147 Draws,       0 Flashes
+D36:  0.0787 ROUND  --       0 Draws,       2 Flashes
+D37:  0.0010 ROUND  --   52882 Draws,       0 Flashes
+D38:  0.0100 ROUND  --      78 Draws,       0 Flashes
+---------------------------------------------------------
+ 28 D-Codes      -----   53486 Draws,     142 Flashes
+
+*********************************************************
+
+Output file: D:\DO NHIET DO VA DO AM\SHT11 - MEGA32A\SCHEMATIC_LAYOUT_SHT11\PCB-SHT11-FULL-SEND\PCB-SHT11-MCU\PCB-SHT11-MCU-LAYOUT\PCB-SHT11-MCU.SMT
+Note: A 2 mil line was used to simulate a non-orthogonal rectangular pad.
+
+Aperture totals for D:\DO NHIET DO VA DO AM\SHT11 - MEGA32A\SCHEMATIC_LAYOUT_SHT11\PCB-SHT11-FULL-SEND\PCB-SHT11-MCU\PCB-SHT11-MCU-LAYOUT\PCB-SHT11-MCU.SMT:
+---------------------------------------------------------
+D11:  0.0020 ROUND  --     226 Draws,       0 Flashes
+D39:  0.0550 ROUND  --       0 Draws,       4 Flashes
+D40:  0.0550 SQUARE --       0 Draws,       3 Flashes
+D41:  0.0880 ROUND  --       0 Draws,       1 Flashes
+D42:  0.0880 SQUARE --       0 Draws,       1 Flashes
+D43:  0.0680 ROUND  --       0 Draws,      64 Flashes
+D44:  0.0680 SQUARE --       0 Draws,       4 Flashes
+D45:  0.1030 x 0.0730 OBLONG    -----       7 Flashes
+D46:  0.1030 x 0.0730 RECTANGLE -----       3 Flashes
+D47:  0.1080 ROUND  --       0 Draws,       1 Flashes
+D48:  0.1080 SQUARE --       0 Draws,       1 Flashes
+D49:  0.0730 x 0.0730 OBLONG    -----       7 Flashes
+D50:  0.0730 SQUARE --       0 Draws,       3 Flashes
+D51:  0.1338 ROUND  --       0 Draws,       2 Flashes
+D52:  0.0730 ROUND  --       0 Draws,       6 Flashes
+D53:  0.1650 ROUND  --       0 Draws,       4 Flashes
+D54:  0.0830 x 0.0980 OBLONG    -----      15 Flashes
+D55:  0.0830 x 0.0980 RECTANGLE -----       1 Flashes
+D56:  0.1027 x 0.0728 OBLONG    -----       3 Flashes
+D57:  0.0870 ROUND  --       0 Draws,       3 Flashes
+D58:  0.0930 x 0.0780 OBLONG    -----       2 Flashes
+D59:  0.0930 x 0.0780 RECTANGLE -----       1 Flashes
+D60:  0.0650 ROUND  --       0 Draws,       6 Flashes
+---------------------------------------------------------
+ 23 D-Codes      -----     226 Draws,     142 Flashes
+
+*********************************************************
+
+Output file: D:\DO NHIET DO VA DO AM\SHT11 - MEGA32A\SCHEMATIC_LAYOUT_SHT11\PCB-SHT11-FULL-SEND\PCB-SHT11-MCU\PCB-SHT11-MCU-LAYOUT\PCB-SHT11-MCU.SMB
+Note: A 2 mil line was used to simulate a non-orthogonal rectangular pad.
+
+Aperture totals for D:\DO NHIET DO VA DO AM\SHT11 - MEGA32A\SCHEMATIC_LAYOUT_SHT11\PCB-SHT11-FULL-SEND\PCB-SHT11-MCU\PCB-SHT11-MCU-LAYOUT\PCB-SHT11-MCU.SMB:
+---------------------------------------------------------
+D11:  0.0020 ROUND  --     226 Draws,       0 Flashes
+D39:  0.0550 ROUND  --       0 Draws,       4 Flashes
+D40:  0.0550 SQUARE --       0 Draws,       3 Flashes
+D41:  0.0880 ROUND  --       0 Draws,       1 Flashes
+D42:  0.0880 SQUARE --       0 Draws,       1 Flashes
+D43:  0.0680 ROUND  --       0 Draws,      64 Flashes
+D44:  0.0680 SQUARE --       0 Draws,       4 Flashes
+D45:  0.1030 x 0.0730 OBLONG    -----       7 Flashes
+D46:  0.1030 x 0.0730 RECTANGLE -----       3 Flashes
+D47:  0.1080 ROUND  --       0 Draws,       1 Flashes
+D48:  0.1080 SQUARE --       0 Draws,       1 Flashes
+D49:  0.0730 x 0.0730 OBLONG    -----       7 Flashes
+D50:  0.0730 SQUARE --       0 Draws,       3 Flashes
+D51:  0.1338 ROUND  --       0 Draws,       2 Flashes
+D52:  0.0730 ROUND  --       0 Draws,       6 Flashes
+D53:  0.1650 ROUND  --       0 Draws,       4 Flashes
+D54:  0.0830 x 0.0980 OBLONG    -----      15 Flashes
+D55:  0.0830 x 0.0980 RECTANGLE -----       1 Flashes
+D56:  0.1027 x 0.0728 OBLONG    -----       3 Flashes
+D57:  0.0870 ROUND  --       0 Draws,       3 Flashes
+D58:  0.0930 x 0.0780 OBLONG    -----       2 Flashes
+D59:  0.0930 x 0.0780 RECTANGLE -----       1 Flashes
+D60:  0.0650 ROUND  --       0 Draws,       6 Flashes
+---------------------------------------------------------
+ 23 D-Codes      -----     226 Draws,     142 Flashes
+
+*********************************************************
+
+Output file: D:\DO NHIET DO VA DO AM\SHT11 - MEGA32A\SCHEMATIC_LAYOUT_SHT11\PCB-SHT11-FULL-SEND\PCB-SHT11-MCU\PCB-SHT11-MCU-LAYOUT\PCB-SHT11-MCU.SST
+
+Aperture totals for D:\DO NHIET DO VA DO AM\SHT11 - MEGA32A\SCHEMATIC_LAYOUT_SHT11\PCB-SHT11-FULL-SEND\PCB-SHT11-MCU\PCB-SHT11-MCU-LAYOUT\PCB-SHT11-MCU.SST:
+---------------------------------------------------------
+D11:  0.0020 ROUND  --     144 Draws,       0 Flashes
+D37:  0.0010 ROUND  --      31 Draws,       0 Flashes
+D38:  0.0100 ROUND  --     667 Draws,       0 Flashes
+D61:  0.0004 ROUND  --       0 Draws,       2 Flashes
+D62:  0.0080 ROUND  --    1138 Draws,       0 Flashes
+D63:  0.0050 ROUND  --      51 Draws,       0 Flashes
+D64:  0.0079 ROUND  --      37 Draws,       0 Flashes
+D65:  0.0030 ROUND  --      11 Draws,       0 Flashes
+D66:  0.0118 ROUND  --       9 Draws,       0 Flashes
+D67:  0.0300 ROUND  --       3 Draws,       0 Flashes
+D68:  0.0060 ROUND  --      39 Draws,       0 Flashes
+---------------------------------------------------------
+ 11 D-Codes      -----    2130 Draws,       2 Flashes
+
+*********************************************************
+
+Output file: D:\DO NHIET DO VA DO AM\SHT11 - MEGA32A\SCHEMATIC_LAYOUT_SHT11\PCB-SHT11-FULL-SEND\PCB-SHT11-MCU\PCB-SHT11-MCU-LAYOUT\PCB-SHT11-MCU.AST
+
+Aperture totals for D:\DO NHIET DO VA DO AM\SHT11 - MEGA32A\SCHEMATIC_LAYOUT_SHT11\PCB-SHT11-FULL-SEND\PCB-SHT11-MCU\PCB-SHT11-MCU-LAYOUT\PCB-SHT11-MCU.AST:
+---------------------------------------------------------
+D19:  0.1000 ROUND  --       0 Draws,       1 Flashes
+D20:  0.1000 SQUARE --       0 Draws,       1 Flashes
+D33:  0.0250 ROUND  --       6 Draws,       0 Flashes
+D36:  0.0787 ROUND  --       0 Draws,       2 Flashes
+D38:  0.0100 ROUND  --       4 Draws,       0 Flashes
+D39:  0.0550 ROUND  --       0 Draws,       4 Flashes
+D45:  0.1030 x 0.0730 OBLONG    -----       7 Flashes
+D46:  0.1030 x 0.0730 RECTANGLE -----       2 Flashes
+D49:  0.0730 x 0.0730 OBLONG    -----       7 Flashes
+D50:  0.0730 SQUARE --       0 Draws,       3 Flashes
+D52:  0.0730 ROUND  --       0 Draws,       6 Flashes
+D62:  0.0080 ROUND  --     118 Draws,       0 Flashes
+D63:  0.0050 ROUND  --       8 Draws,       0 Flashes
+D69:  0.0710 ROUND  --       0 Draws,       2 Flashes
+D70:  0.0710 SQUARE --       0 Draws,       1 Flashes
+---------------------------------------------------------
+ 15 D-Codes      -----     136 Draws,      36 Flashes
+
+*********************************************************
+
+Output file: D:\DO NHIET DO VA DO AM\SHT11 - MEGA32A\SCHEMATIC_LAYOUT_SHT11\PCB-SHT11-FULL-SEND\PCB-SHT11-MCU\PCB-SHT11-MCU-LAYOUT\PCB-SHT11-MCU.FAB
+
+Aperture totals for D:\DO NHIET DO VA DO AM\SHT11 - MEGA32A\SCHEMATIC_LAYOUT_SHT11\PCB-SHT11-FULL-SEND\PCB-SHT11-MCU\PCB-SHT11-MCU-LAYOUT\PCB-SHT11-MCU.FAB:
+---------------------------------------------------------
+D33:  0.0250 ROUND  --       6 Draws,       0 Flashes
+D38:  0.0100 ROUND  --       4 Draws,       0 Flashes
+D71:  0.0280 ROUND  --       0 Draws,       6 Flashes
+---------------------------------------------------------
+  3 D-Codes      -----      10 Draws,       6 Flashes
+
+
+*********************************************************
+
+Aperture totals for entire project:
+---------------------------------------------------------
+D10:  0.0500 ROUND  --       0 Draws,       8 Flashes
+D11:  0.0020 ROUND  --    1008 Draws,       0 Flashes
+D12:  0.0500 SQUARE --       0 Draws,       6 Flashes
+D13:  0.0800 ROUND  --       0 Draws,       2 Flashes
+D14:  0.0800 SQUARE --       0 Draws,       2 Flashes
+D15:  0.0600 ROUND  --       0 Draws,     128 Flashes
+D16:  0.0600 SQUARE --       0 Draws,       8 Flashes
+D17:  0.0950 x 0.0650 OBLONG    -----      14 Flashes
+D18:  0.0950 x 0.0650 RECTANGLE -----       6 Flashes
+D19:  0.1000 ROUND  --       0 Draws,       3 Flashes
+D20:  0.1000 SQUARE --       0 Draws,       3 Flashes
+D21:  0.0650 x 0.0650 OBLONG    -----      14 Flashes
+D22:  0.0650 SQUARE --       0 Draws,       6 Flashes
+D23:  0.1260 ROUND  --       0 Draws,       4 Flashes
+D24:  0.0650 ROUND  --       0 Draws,      12 Flashes
+D25:  0.1575 ROUND  --       0 Draws,       8 Flashes
+D26:  0.0750 x 0.0900 OBLONG    -----      30 Flashes
+D27:  0.0750 x 0.0900 RECTANGLE -----       2 Flashes
+D28:  0.0949 x 0.0649 OBLONG    -----       6 Flashes
+D29:  0.0790 ROUND  --       0 Draws,       4 Flashes
+D30:  0.0850 x 0.0700 OBLONG    -----       4 Flashes
+D31:  0.0850 x 0.0700 RECTANGLE -----       2 Flashes
+D33:  0.0250 ROUND  --     188 Draws,       0 Flashes
+D34:  0.0600 ROUND  --       0 Draws,      12 Flashes
+D35:  0.0200 ROUND  --     148 Draws,       0 Flashes
+D36:  0.0787 ROUND  --       0 Draws,       4 Flashes
+D37:  0.0010 ROUND  --   52913 Draws,       0 Flashes
+D38:  0.0100 ROUND  --     753 Draws,       0 Flashes
+D39:  0.0550 ROUND  --       0 Draws,      12 Flashes
+D40:  0.0550 SQUARE --       0 Draws,       6 Flashes
+D41:  0.0880 ROUND  --       0 Draws,       2 Flashes
+D42:  0.0880 SQUARE --       0 Draws,       2 Flashes
+D43:  0.0680 ROUND  --       0 Draws,     128 Flashes
+D44:  0.0680 SQUARE --       0 Draws,       8 Flashes
+D45:  0.1030 x 0.0730 OBLONG    -----      21 Flashes
+D46:  0.1030 x 0.0730 RECTANGLE -----       8 Flashes
+D47:  0.1080 ROUND  --       0 Draws,       2 Flashes
+D48:  0.1080 SQUARE --       0 Draws,       2 Flashes
+D49:  0.0730 x 0.0730 OBLONG    -----      21 Flashes
+D50:  0.0730 SQUARE --       0 Draws,       9 Flashes
+D51:  0.1338 ROUND  --       0 Draws,       4 Flashes
+D52:  0.0730 ROUND  --       0 Draws,      18 Flashes
+D53:  0.1650 ROUND  --       0 Draws,       8 Flashes
+D54:  0.0830 x 0.0980 OBLONG    -----      30 Flashes
+D55:  0.0830 x 0.0980 RECTANGLE -----       2 Flashes
+D56:  0.1027 x 0.0728 OBLONG    -----       6 Flashes
+D57:  0.0870 ROUND  --       0 Draws,       6 Flashes
+D58:  0.0930 x 0.0780 OBLONG    -----       4 Flashes
+D59:  0.0930 x 0.0780 RECTANGLE -----       2 Flashes
+D60:  0.0650 ROUND  --       0 Draws,      12 Flashes
+D61:  0.0004 ROUND  --       0 Draws,       2 Flashes
+D62:  0.0080 ROUND  --    1256 Draws,       0 Flashes
+D63:  0.0050 ROUND  --      59 Draws,       0 Flashes
+D64:  0.0079 ROUND  --      37 Draws,       0 Flashes
+D65:  0.0030 ROUND  --      11 Draws,       0 Flashes
+D66:  0.0118 ROUND  --       9 Draws,       0 Flashes
+D67:  0.0300 ROUND  --       3 Draws,       0 Flashes
+D68:  0.0060 ROUND  --      39 Draws,       0 Flashes
+D69:  0.0710 ROUND  --       0 Draws,       2 Flashes
+D70:  0.0710 SQUARE --       0 Draws,       1 Flashes
+D71:  0.0280 ROUND  --       0 Draws,       6 Flashes
+---------------------------------------------------------
+ 61 D-Codes      -----   56424 Draws,     612 Flashes
+
+
+No warnings or errors.

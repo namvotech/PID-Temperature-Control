@@ -1,0 +1,10 @@
+VERSION:3 SOURCE_TIMESTAMP:4586B298
+NODE:V LEVEL:0 LINE:25 "SHT_Resolution -> RAM:????"
+NODE:F LEVEL:0 LINE:31 "SHT_Start(void)"
+NODE:F LEVEL:0 LINE:49 "SHT_ResetConection(void)"
+NODE:F LEVEL:0 LINE:67 "SHT_WriteByte(uint8_t Data)"
+NODE:F LEVEL:0 LINE:96 "SHT_ReadByte(uint8_t ack)"
+NODE:F LEVEL:0 LINE:123 "SHT_Init(uint8_t resolution)"
+NODE:F LEVEL:0 LINE:136 "SHT_ResetChip(void)"
+NODE:F LEVEL:0 LINE:147 "SHT_ReadSenSor(uint8_t Command)"
+NODE:F LEVEL:0 LINE:164 "SHT_ReadTemHumi(float * tem,float * humi)"
